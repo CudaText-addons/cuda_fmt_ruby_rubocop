@@ -1,0 +1,13 @@
+[info]
+title=Formatter for Ruby, using Rubocop
+desc=
+type=cudatext-plugin
+subdir=cuda_fmt_ruby_rubocop
+homepage=https://github.com/CudaText-addons/cuda_fmt_ruby_rubocop
+
+[fmt1]
+caption=Ruby Rubocop
+method=do_format
+lexers=Ruby
+config=rubocop.yml
+force_all=1
